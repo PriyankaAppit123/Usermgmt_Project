@@ -1,0 +1,21 @@
+     
+    \/ if user finished his work / session completed 
+       then logout and  delete the token 
+        
+
+ replacing the body parser with express 
+  as express has the parser in it 
+  body parser for parsing the data 
+  getting the data from the browser 
+  for that we are using body property from the body parser which can extract any 
+  data depending on the property  from the browser 
+eg: req.body.name here name and body are property
+        ================
+        page and limit is added in the query  parameters
+        =================
+       page validation --- 
+       -> if page is not found then throw page not found error 
+
+
+forgot password  ->    yes -> type email or username ->  verify -> if valid  -> type password ->  then update the password with oldpass  -> success msg 
+                 ->    no  -> success                              not valid -> retype email                                             -> not success msg
